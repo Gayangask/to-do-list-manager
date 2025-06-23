@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+}
+body{
+  background-image: url('../images/bg2.jpg');
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.main{
+
+  width:50%;
+  height: 90%;
+  
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.11);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.2px);
+-webkit-backdrop-filter: blur(9.2px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+text-align: center;
+
+
+}.list{
+  width:80%;
+  height: 60%;
+  background-color: rgba(252, 207, 156, 0.511);
+  border-radius: 25px;
+  align-self: center;
+  justify-self: center;
+  margin-top: 1rem;
+  text-align: left;
+  
+}input{
+
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgb(0, 93, 23);
+  margin-bottom: 1rem;
+}.main #inputBtn{
+
+  border: none;
+  background-color: green;
+  width: 120px;
+  padding: 5px;
+  font-size: large;
+  font-weight: 700;
+}.main #inputBtn:hover{
+   background-color: lime;
+}.main #inputBtn:active{
+
+  scale: 1.2;
+}.main #backBtn{
+   border: none;
+  background-color: rgb(128, 0, 0);
+  width: 120px;
+  padding: 5px;
+  font-size: large;
+  font-weight: 700;
+  color: white;
+
+}input:focus{
+  background-color: transparent;
+  
+}.main #backBtn:hover{
+
+  background-color: red;
+}.main #backBtn:active{
+
+  scale:1.2;
+}
